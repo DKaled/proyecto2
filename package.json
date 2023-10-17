@@ -1,0 +1,27 @@
+{
+  "name": "proyecto2",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./proyecto2 avance 1 13-10-23/src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "startNodemon": "nodemon ./app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "next": "13.5.4",
+    "nodemon": "^3.0.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4"
+  }
+}
