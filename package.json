@@ -2,7 +2,7 @@
   "name": "proyecto2",
   "version": "0.1.0",
   "private": true,
-  "main": "./proyecto2 avance 1 13-10-23/src/app.js",
+  "main": "proyecto2 avance 2 17-10-23/src/app.js",
   "type": "module",
   "scripts": {
     "dev": "next dev",
@@ -14,11 +14,16 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "express-myconnection": "^1.0.4",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
     "mysql": "^2.18.1",
+    "mysql2": "^3.6.2",
     "next": "13.5.4",
     "nodemon": "^3.0.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-router-dom": "^6.17.0"
   },
   "devDependencies": {
     "eslint": "^8",
