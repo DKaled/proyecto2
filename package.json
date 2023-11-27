@@ -2,7 +2,7 @@
   "name": "proyecto2",
   "version": "0.1.0",
   "private": true,
-  "main": "proyecto2 avance 3 09-11-23/src/app.js",
+  "main": "proyecto2 avance 5 20-11-23/src/app.js",
   "type": "CommonJS",
   "scripts": {
     "dev": "next dev",

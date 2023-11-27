@@ -1,0 +1,17 @@
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+section.sprint {
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+}
+
+.graph img {
+    width: 500px;
+}
+
