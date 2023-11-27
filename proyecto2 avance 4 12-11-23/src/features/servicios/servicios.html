@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Servicios</title>
+	<link rel="stylesheet" href="features/servicios/servicios.css" type="text/css">
+	<script src="features/servicios/servicios.js"></script>
+</head>
+<body>
+	<div class="sidebar">
+		<a href="/servicios" class="active">Servicios</a>
+		<a href="/citas">Citas</a>
+		<a href="/ventas">Ventas</a>
+		<a href="/configuracion">Configuración</a>
+	</div>
+
+	<div class="content">
+		<h1>Servicios</h1>
+		<form id="serviceForm">
+			<input type="text" id="name" placeholder="Nombre">
+			<input type="text" id="description" placeholder="Descripción">
+			<input type="text" id="price" placeholder="Precio">
+			<button id="createService" onclick="createServicio()">Crear</button>
+		</form>
+
+		<table id="serviceTable">
+			<tr>
+				<th>Nombre</th>
+				<th>Descripción</th>
+				<th>Precio</th>
+				<th>Controles</th>
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>

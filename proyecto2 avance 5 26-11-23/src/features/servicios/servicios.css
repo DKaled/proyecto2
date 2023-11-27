@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar a.active {
+    background-color: #A247CD;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#serviceForm {
+    display: flex;
+}
+
+#serviceForm input {
+    margin-right: 10px;
+}
+
+#serviceForm button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#serviceForm input[type="number"] {
+    display: none;
+}
